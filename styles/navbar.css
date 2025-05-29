@@ -1,0 +1,46 @@
+.navbar {
+  background-color: black;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 80px;
+  border-radius: 40%;
+  width: 200px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  border: 2px solid white;
+  padding: 10px 16px;
+  border-radius: 20px;
+  transition: 0.3s;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.auth-buttons button {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 7px 14px;
+  margin-left: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.auth-buttons button:hover {
+  background-color: white;
+  color: black;
+}
+
